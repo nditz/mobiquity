@@ -69,4 +69,8 @@ public class Packer {
         return ifileReader.readFile(path);
     }
 
+    
+     public static void main(String[] args) throws APIException {
+        System.out.println(Packer.pack("F:\\Code\\Java\\mobiquity\\src\\main\\test\\resources\\example_input"));
+    }
 }
